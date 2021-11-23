@@ -48,7 +48,6 @@ int solve_task(int limit)
  
     /*@
         loop invariant 0 <= a <= limit;
-        loop invariant \forall int j; 0 <= j < a ==> sieve[j] != true;
         loop assigns a;
         loop variant limit-1;
     */
