@@ -56,7 +56,7 @@ int solve_task(int limit)
             printf("%d ", a);
         }
 
-    return;
+    return 0;
 }
  
 int main(void)
