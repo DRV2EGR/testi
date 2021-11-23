@@ -55,6 +55,8 @@ int solve_task(int limit)
         if (sieve[a] == 1) {
             printf("%d ", a);
         }
+
+    return;
 }
  
 int main(void)
