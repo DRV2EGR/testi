@@ -3,7 +3,7 @@
  
  /*@
   requires \valid(limit);
-  
+
   \forall integer i;
     0 <= i < limit ==> sieve[i] == 0;
 */
@@ -21,7 +21,6 @@ int solve_task(int limit)
 
     /*@
         loop invariant 0 <= i <= limit;
-        loop invariant \forall int j; 0 <= j < i ==> sieve[j] = true;
         loop assigns i;
         loop variant limit-1;
     */
