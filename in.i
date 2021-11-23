@@ -60,7 +60,6 @@ int solve_task(int limit)
 int main(void)
 {
     int limit = 20;
-    /*@ assert \valid(limit); */
     solve_task(limit);
     return 0;
 }
