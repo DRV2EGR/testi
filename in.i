@@ -23,7 +23,7 @@ int solve_task(int limit)
     }
  
     // Initialise the sieve array with false values
-    /*@ assert \ valid(limit); */
+    /*@ assert \ valid(sieve); */
     bool sieve[limit];
 
     /*@
