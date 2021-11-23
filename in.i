@@ -4,7 +4,7 @@
  /*@
   requires \valid(limit);
 
-  \forall integer i;
+  loop invariant \forall integer i;
     0 <= i < limit ==> sieve[i] == 0;
 */
 int solve_task(int limit)
