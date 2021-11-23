@@ -7,8 +7,6 @@
   requires limit > 2 ==> printf("2 ")
   requires limit > 3 ==> printf("3 ")
 
-  assigns  a[0..n-1];
-
   \forall integer i;
     0 <= i < limit ==> sieve[i] == 0;
 */
