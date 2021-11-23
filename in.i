@@ -1,9 +1,6 @@
 #include <stdio.h>
 // #include <stdbool.h>
  
- /*@
-  requires \valid(limit);
-*/
 int solve_task(int limit)
 {
     // 2 and 3 are known to be prime
